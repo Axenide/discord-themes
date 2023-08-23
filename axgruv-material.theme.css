@@ -43,7 +43,7 @@
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
 .theme-dark {
-  --accent-color: #ebdbb2;
+  --accent-color: #D4BE98;
   --background-1: #131313;
   --background-2: #000000;
   --background-accent: #1d1d1d;
@@ -52,7 +52,7 @@
 /*-------------LIGHT MODE------------*/
 .theme-light {
   --accent-color: #1d1d1d;
-  --background-1: #ebdbb2;
+  --background-1: #D4BE98;
   --background-2: #928374;
   --background-accent: var(--background-2);
   --border-color: transparent;
@@ -67,8 +67,8 @@
   --background-tertiary: var(--background-2);
   --background-accent-gradient: var(--background-2);
   --background-floating: var(--background-1);
-  --background-mentioned: #ebdbb210;
-  --background-mentioned-hover: #ebdbb215;
+  --background-mentioned: #D4BE9810;
+  --background-mentioned-hover: #D4BE9815;
   /* modifiers */
   --background-modifier-hover: #282828;
   --background-modifier-active: #928374;
@@ -79,7 +79,7 @@
   --text-normal: var(--accent-color);
   --text-positive: var(--text-normal);
   --text-muted: #928374;
-  --text-link: #b8bb26;
+  --text-link: #A9B665;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
@@ -88,7 +88,7 @@
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
   /* more */
-  --settings-icon-color: #fb4934;
+  --settings-icon-color: #EC6B64;
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
   --tab-selected: #282828;
@@ -100,11 +100,11 @@
   --button-background-hover: #282828;
   --button-background-active: #928374;
   --button-accent: var(--accent-color);
-  --button-accent-hover: #b8bb26;
+  --button-accent-hover: #A9B665;
   --button-accent-active: #fabd2d;
-  --button-destructive: #cc241d;
-  --button-destructive-hover: #fb4934;
-  --button-destructive-active: #d3869b;
+  --button-destructive: #EC6B64;
+  --button-destructive-hover: #EC6B64;
+  --button-destructive-active: #CE8196;
 }
 .theme-light {
   /* background */
@@ -119,7 +119,7 @@
   --background-mentioned-hover: #22c5fd15;
   /* modifiers */
   --background-modifier-hover: transparent;
-  --background-modifier-active: #ebdbb2;
+  --background-modifier-active: #D4BE98;
   --background-modifier-selected: var(--accent-color);
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
